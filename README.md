@@ -1,4 +1,4 @@
-### Predicting Economic Development Using Geolocated Wikipedia Articles
+# Predicting Economic Development Using Geolocated Wikipedia Articles
 
 This repository contains the implementation of our KDD 2019 paper on "Predicting Economic Development Using Geolocated Wikipedia Articles".
 
