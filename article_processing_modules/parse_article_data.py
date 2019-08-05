@@ -14,7 +14,6 @@ that have since been abandoned.
 '''
 
 import sys
-sys.path.append("/atlas/u/esheehan/wikipedia_project/dataset/text_dataset/dataset_modules")
 from data_processor import *
 import re 
 import sys
@@ -471,6 +470,7 @@ if __name__ == '__main__':
     # distribution of raw categories
     raw_categories = {}
     raw_categories["Uncategorized"] = 0
+
     curated_categories = {}
     curated_categories["Uncategorized"] = []
 
@@ -508,122 +508,3 @@ if __name__ == '__main__':
     save_categories(curated_categories, len(array))
 
 
-#####################################################################
-#########                                                   #########
-#########            DEPRECATED CURATED TAG CODE            #########
-#########                                                   #########
-#####################################################################
-
-POPULATION_KEY_WORDS = ["population_total", "pop", "population", "population_census", "population_estimate"]
-AREA_KEY_WORDS = ["area", "TotalArea", "area_km2", "area_total_km2", "area_sq_mi", "area_total_sq_mi", "area_land_km2", "area_land_sq_mi"]
-ELEVATION_KEY_WORDS = ["elevation_m", "elevation"]
-
-#####################################################################
-#########                                                   #########
-#########              CATEGORY HAND CURATION               #########
-#########                                                   #########
-#####################################################################
-
-'''
-while True:
-            try:
-                int(category[-1])
-                category = category[:-1]
-            except:
-                break
-
-        geo_fix = category.find("=")
-        if geofix is not -1:
-            category = category[geo_fix + 1:]
-        if category == "amci":
-            category = "university"
-        if category == "australia state or territory":
-            category = "australian state or territory"
-        if category == "belgium municipality":
-            category = "belgian municipality"
-        if category == "canada electoral district":
-            category = "canadian electoral district"
-        if category == "city japan":
-            category = "japanese city"
-        if category == "district de":
-            category = "german district"
-        if category == "district pt":
-            category = "portuguese district"
-        if category == "gb station":
-            category = "great britain station"
-        if category == "india district":
-            category = "indian district"
-        if category == "israel municipality":
-            category = "israeli municipality"
-        if category == "israel village":
-            category = "israeli village"
-        if category == "ort in österreich":
-            category = "austrian district"
-        if category == "palestinian authority muni":
-            category = "palestinian authority municipality"
-        if category == "peninsulas":
-            category = "peninsula"
-        if category == "pref gr":
-            category = "greek prefecture"
-        if category == "prefecture japan":
-            category = "japanese prefecture"
-        if category == "province peru":
-            category = "peruvian province"
-        if category == "province tr":
-            category = "turkish province"
-        if category == "us school":
-            category = "u.s. school"
-        if category == "radio stationsrsvsfd dvd wfsejdgdusgsjysn":
-            remove_category
-        if category == "settlementعمكم احمد الفضاله":
-            remove_category
-        if category == "buna spring (vrelo bune) with the blagaj tekke":
-            remove_category
-'''
-
-#####################################################################
-#########                                                   #########
-#########               DBPEDIA EXTRACTION                  #########
-#########                                                   #########
-#####################################################################
-
-# This file loads the categorizations of articles from the dbpedia data dump
-# and then matches them with articles in our local database
-
-#if __name__ == '__main__':
-
-    # Load category data
-    #print("Starting...")
-    #articles = load_article_array("full", verbose=True)
-    #new = []
-    #with open("/sailhome/esheehan/instance_types_en.txt", "r") as meta:
-        #print("Opened..")
-        #for line in meta:
-            # Identify the ttl structure
-            #tql = re.findall("<[^<]*>", line)
-            #if len(tql) < 4:
-                #continue
-            # Obtain the title of the article in the first <...> section
-            #match = re.search("/[^/]*>", tql[0])
-            #if not match:
-                #continue
-            # Check if the local database contains the title
-            #title = match.group(0)[1:-1].replace("_", " ")
-            #article = get_article(title, loaded=articles)
-            #if article is None:
-                #continue
-            # Get category for article
-            #category = re.search("(/[^/#]*>)|(#[^#]*>)", tql[2])
-            #if not category:
-                #continue
-            #category = category.group(0)[1:-1]
-            #print("Title: " + title + "    " + "Category: " + category)
-            # Finally decided to change article tuples to lists
-            #article = list(article)
-            #article.insert(1, category)
-            #new.append(article)
-    # Sort and save data
-    #new.sort()
-    #print(str(len(new)) + " of " + str(len(articles)) + " articles categorized.")
-    #print("Sorted!")
-    #save_data(new, "", "cats", verbose=True)

@@ -12,7 +12,6 @@ tuples.
 '''
 
 import sys
-sys.path.append("/atlas/u/esheehan/wikipedia_project/dataset/text_dataset/dataset_modules")
 from data_processor import *
 from sequester_coordinate_articles import extract_text
 from sequester_coordinate_articles import extract_hyperlinks

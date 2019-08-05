@@ -7,7 +7,6 @@ Loads the array of coordinate articles and trains a doc2vec model on them
 '''
 
 import sys
-sys.path.append("/atlas/u/esheehan/wikipedia_project/dataset/text_dataset/dataset_modules")
 from data_processor import *
 import gensim
 import os
@@ -46,6 +45,6 @@ if __name__ == '__main__':
     print("Model trained")
 
     # Save the model
-    model.save("/atlas/u/esheehan/wikipedia_project/RNN/Doc2Vec/models/wikimodel_DBOW_vector300_window8_count15_epoch10/wikimodel.doc2vec")
+    model.save("../models/wikimodel_DBOW_vector300_window8_count15_epoch10/wikimodel.doc2vec")
     print("Model saved")
 
