@@ -16,11 +16,6 @@ You can find our paper [here](http://delivery.acm.org/10.1145/3340000/3330784/p2
 
 ## Downloading Geolocated Articles
 will be updated soon!
-![figure 1](https://github.com/ermongroup/WikipediaPovertyMapping/tree/master/images/global_wiki.png)
-<p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/tree/master/images/global_wiki.png" width="220" height="240">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/tree/master/images/error_range.png">
-</p>
 
 ## Parsing Geolocated Articles
 will be updated soon!
