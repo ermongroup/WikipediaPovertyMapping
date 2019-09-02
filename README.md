@@ -29,7 +29,7 @@ will be updated soon!
 ## Building Multi-modal Architecture
 will be updated soon!
 
-If you use this repository, please consider citing our work:
+If you use this repository, please cite our paper:
 
 	Sheehan, E., Meng, C., Tan, M., Uzkent, B., Jean, N., Burke, M., Lobell, D. and Ermon, S., 2019, July. Predicting Economic Development using Geolocated Wikipedia Articles. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 2698-2706). ACM.
 
