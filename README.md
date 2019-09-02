@@ -28,7 +28,8 @@ will be updated soon!
 
 ## Building Multi-modal Architecture
 will be updated soon!
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="100"/>
+
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="800"/>
 
 If you use this repository, please cite our paper:
 
