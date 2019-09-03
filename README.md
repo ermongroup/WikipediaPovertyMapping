@@ -74,20 +74,16 @@ our method outperforms all previously published benchmarks for
 this prediction task, indicating the potential of Wikipedia to inform
 both research in the social sciences and future policy decisions.
 
+<p align="center">
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/table1.png" width="800"/>
+</p>
+
 Here is an example:
 On the left is the ground truth values of 1074 data points averaged on Admin 2 Level for Tanzania. On the right is the Wikipedia Embedding Model predicted values averaged on Admin 2 level for a model trained on Ghana and tested on Tanzania (r2 = 0.52). The resulting predictions show that the model is capable of generalizing across national boundaries.
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/GHA_TZA(groundtruth,predicted).png" width="600"/>
 </p>
 
-<p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/table1.png" width="600"/>
-	
-<em>Pearson’s r
-2 values for the Nightlight-Only (NL), Wikipedia Embedding (WE), and Multi-Modal (MM) models on incountry and out-of-country experiments. Columns and rows represent the countries the models were trained and tested on,
-respectively. The Multi-Modal model outperforms the other models on both in-country (shaded) and cross-country experiments.
-</em>
-</p>
 If you use this repository, please cite our paper:
 
 	Sheehan, E., Meng, C., Tan, M., Uzkent, B., Jean, N., Burke, M., Lobell, D. and Ermon, S., 2019, July. Predicting Economic Development using Geolocated Wikipedia Articles. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 2698-2706). ACM.
