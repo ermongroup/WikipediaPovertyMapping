@@ -22,7 +22,11 @@ will be updated soon!
 will be updated soon!
 
 ## Training Doc2Vec on Geolocated Articles
-will be updated soon!
+To train the Doc2Vec model on geolocated articles, run:
+
+```
+python Doc2Vec/Doc2Vec_modules/train_doc2vec.py
+```
 
 ## Socioeconomic Data
 Our ground truth dataset consists of data on asset ownership from the Demographic and Health Surveys [DHS](https://www.dhsprogram.com/) and [Afrobarometer](http://http://afrobarometer.org). DHS is a set of nationally representative household surveys conducted periodically in
