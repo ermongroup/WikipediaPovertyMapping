@@ -53,7 +53,7 @@ xml code abbreviations with their human-readable counterparts; saves
 the arrays in the 'coordinate_articles' directory.
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/geolocated_wikipedia_article.png" width="500"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/geolocated_wikipedia_article.png" width="600"/>
 </p>
 
 ## Training Doc2Vec on Geolocated Articles
