@@ -78,6 +78,7 @@ We use high-resolution night-time imagery from VIIRS [Elvidge et al., 2017]. Eac
 images was set to (5 km × 5 km) due to the (maximum) 5km noise that each location has. 
 
 ## Models
+We discuss the model architecture in detail in section 3 of the paper.
 We provide the code for Wikipedia Embedding Model and Multi-modal Model in
 ```
 models/
