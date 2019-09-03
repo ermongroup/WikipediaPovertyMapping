@@ -15,11 +15,9 @@ We will be updating and cleaning the code for distribution and can field concern
 
 # Predicting Economic Development Using Geolocated Wikipedia Articles
 
-## Downloading Geolocated Articles
+## Downloading and Parsing Geolocated Articles
 will be updated soon!
 
-## Parsing Geolocated Articles
-will be updated soon!
 
 ## Training Doc2Vec on Geolocated Articles
 We use [gensim](https://radimrehurek.com/gensim/models/doc2vec.html) doc2vec packege for training the Doc2Vec model. To train the Doc2Vec model on geolocated articles, run:
