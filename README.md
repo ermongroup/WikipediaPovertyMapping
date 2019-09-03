@@ -24,7 +24,7 @@ will be updated soon!
 will be updated soon!
 
 ## Socioeconomic Data
-Our ground truth dataset consists of data on asset ownership from the Demographic and Health Surveys [DHS](https://www.dhsprogram.com/) and [Afrobarometer](http://http://afrobarometer.org). DHS is a set of nationallyrepresentative household surveys conducted periodically in
+Our ground truth dataset consists of data on asset ownership from the Demographic and Health Surveys [DHS](https://www.dhsprogram.com/) and [Afrobarometer](http://http://afrobarometer.org). DHS is a set of nationally representative household surveys conducted periodically in
 most developing countries, spanning 31 African countries. Afrobarometer (Round 6) is a survey across 36 countries in
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
