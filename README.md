@@ -1,7 +1,9 @@
 # WikipediaPovertyMapping
-Implementation of Geolocated Articles Processing and Poverty Mapping
+This repository contains the implementation of our _KDD2019_ paper: [__Predicting Economic Development Using Geolocated Wikipedia Articles__](https://dl.acm.org/citation.cfm?doid=3292500.3330784).
 
+<p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/global_wiki.png" width="500"/>
+</p>
 
 Here, we present the code for parsing a Wikipedia xml dump into its constituent geolocated articles,
 converting them to human readable format, training a Doc2Vec model over them, and building and training
@@ -12,8 +14,6 @@ as well as Nightlights imagery.
 We will be updating and cleaning the code for distribution and can field concerns or requests at esheehan@stanford.edu or chenlin@stanford.edu
 
 # Predicting Economic Development Using Geolocated Wikipedia Articles
-
-This repository contains the implementation of our _KDD2019_ paper: [__Predicting Economic Development Using Geolocated Wikipedia Articles__](https://dl.acm.org/citation.cfm?doid=3292500.3330784).
 
 ## Downloading Geolocated Articles
 will be updated soon!
