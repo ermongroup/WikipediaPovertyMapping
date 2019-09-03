@@ -11,7 +11,7 @@ a model using the Doc2Vec embeddings to predict poverty via (1) the 10 closest a
 as well as Nightlights imagery.
 
 
-We will be updating and cleaning the code for distribution and can field concerns or requests at esheehan@stanford.edu or chenlin@stanford.edu
+We will be updating and cleaning the code for distribution and can field concerns or requests at esheehan@stanford.edu or chenlin@stanford.edu.
 
 # Predicting Economic Development Using Geolocated Wikipedia Articles
 
