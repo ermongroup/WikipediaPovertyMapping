@@ -74,6 +74,7 @@ our method outperforms all previously published benchmarks for
 this prediction task, indicating the potential of Wikipedia to inform
 both research in the social sciences and future policy decisions.
 
+Here is an example:
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/GHA_TZA(groundtruth,predicted).png" width="600"/>
 	
