@@ -132,6 +132,23 @@ On the left is the ground truth values of 1074 data points averaged on Admin 2 L
 </p>
 
 If you use this repository, please cite our paper:
-
-	Sheehan, E., Meng, C., Tan, M., Uzkent, B., Jean, N., Burke, M., Lobell, D. and Ermon, S., 2019, July. Predicting Economic Development using Geolocated Wikipedia Articles. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 2698-2706). ACM.
+```
+@inproceedings{Sheehan:2019:PED:3292500.3330784,
+ author = {Sheehan, Evan and Meng, Chenlin and Tan, Matthew and Uzkent, Burak and Jean, Neal and Burke, Marshall and Lobell, David and Ermon, Stefano},
+ title = {Predicting Economic Development Using Geolocated Wikipedia Articles},
+ booktitle = {Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery \& Data Mining},
+ series = {KDD '19},
+ year = {2019},
+ isbn = {978-1-4503-6201-6},
+ location = {Anchorage, AK, USA},
+ pages = {2698--2706},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/3292500.3330784},
+ doi = {10.1145/3292500.3330784},
+ acmid = {3330784},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {computational sustainability, deep learning, remote sensing},
+} 
+```
 
