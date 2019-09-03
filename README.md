@@ -34,8 +34,8 @@ most developing countries, spanning 31 African countries. Afrobarometer (Round 6
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="300"/>
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="300"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="260"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="260"/>
 </p>
 
 ## Nightlight Imagery Dataset
