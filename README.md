@@ -75,7 +75,7 @@ this prediction task, indicating the potential of Wikipedia to inform
 both research in the social sciences and future policy decisions.
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/table1.png" width="800"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/table1.png" width="1000"/>
 </p>
 
 Here is an example:
