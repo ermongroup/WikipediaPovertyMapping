@@ -69,6 +69,10 @@ python models/multi_Doc2VecModel.py
 The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uganda.
 
 ## Results
+When paired with nightlights satellite imagery,
+our method outperforms all previously published benchmarks for
+this prediction task, indicating the potential of Wikipedia to inform
+both research in the social sciences and future policy decisions.
 
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/GHA_TZA(groundtruth,predicted).png" width="600"/>
