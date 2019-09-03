@@ -10,9 +10,7 @@ We will be updating and cleaning the code for distribution and can field concern
 
 # Predicting Economic Development Using Geolocated Wikipedia Articles
 
-This repository contains the implementation of our _KDD2019_ paper on __Predicting Economic Development Using Geolocated Wikipedia Articles__.
-
-You can find our paper [here](http://delivery.acm.org/10.1145/3340000/3330784/p2698-sheehan.pdf?ip=171.64.70.130&id=3330784&acc=OPEN&key=AA86BE8B6928DDC7%2E0AF80552DEC4BA76%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1564771483_7a50df95ffb334f1023ed223dd8fd3b1).
+This repository contains the implementation of our _KDD2019_ paper: [__Predicting Economic Development Using Geolocated Wikipedia Articles__](https://dl.acm.org/citation.cfm?doid=3292500.3330784).
 
 ## Downloading Geolocated Articles
 will be updated soon!
@@ -29,21 +27,20 @@ most developing countries, spanning 31 African countries. Afrobarometer (Round 6
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
 ## Nightlight Imagery Dataset
-These images are
-composed of high-resolution night-time imagery from VIIRS
-[Elvidge et al., 2017] and are of shape (255, 255). For each
-point in the AWI data that we train on, we obtain a nightlights image centered on its coordinate ci
-. The size of these
-images was set to (5 km × 5 km) due to the (maximum) 5
-km noise that each location ci has. 
+We use high-resolution night-time imagery from VIIRS [Elvidge et al., 2017]. Each of the imagery is of shape (255, 255). For each point in the AWI data that we train on, we obtain a nightlights image centered on its coordinate. The size of these
+images was set to (5 km × 5 km) due to the (maximum) 5km noise that each location has. 
 
 ## Models
-will be updated soon!
+We provide the code for the models in
+```
+models/
+```
 ### Wikipedia Embedding Model
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="600"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
 
 ### Multi-modal Model
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="700"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
+
 
 If you use this repository, please cite our paper:
 
