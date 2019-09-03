@@ -41,6 +41,7 @@ km noise that each location ci has.
 will be updated soon!
 ### Wikipedia Embedding Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="600"/>
+
 ### Multi-modal Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="600"/>
 
