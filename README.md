@@ -151,4 +151,3 @@ If you use this repository, please cite our paper:
  keywords = {computational sustainability, deep learning, remote sensing},
 } 
 ```
-
