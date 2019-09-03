@@ -29,13 +29,8 @@ most developing countries, spanning 31 African countries. Afrobarometer (Round 6
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
 ## Nightlight Imagery Dataset
-These images are
-composed of high-resolution night-time imagery from VIIRS
-[Elvidge et al., 2017] and are of shape (255, 255). For each
-point in the AWI data that we train on, we obtain a nightlights image centered on its coordinate ci
-. The size of these
-images was set to (5 km × 5 km) due to the (maximum) 5
-km noise that each location ci has. 
+We use high-resolution night-time imagery from VIIRS [Elvidge et al., 2017]. Each of the imagery is of shape (255, 255). For each point in the AWI data that we train on, we obtain a nightlights image centered on its coordinate. The size of these
+images was set to (5 km × 5 km) due to the (maximum) 5km noise that each location has. 
 
 ## Models
 will be updated soon!
