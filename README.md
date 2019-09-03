@@ -71,13 +71,20 @@ The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uga
 ## Results
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/GHA_TZA(groundtruth,predicted).png" width="500"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/GHA_TZA(groundtruth,predicted).png" width="600"/>
 	
 <em>Ground truth values of 1074 data points averaged on Admin 2 Level for Tanzania. Right: Wikipedia
 Embedding Model predicted values averaged on Admin 2 level for a model trained on Ghana and tested on Tanzania (r2 = 0.52). The resulting predictions show that the model is capable of generalizing across national boundaries.</em>
 </p>
 
-
+<p align="center">
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/table1.png" width="600"/>
+	
+<em>Pearson’s r
+2 values for the Nightlight-Only (NL), Wikipedia Embedding (WE), and Multi-Modal (MM) models on incountry and out-of-country experiments. Columns and rows represent the countries the models were trained and tested on,
+respectively. The Multi-Modal model outperforms the other models on both in-country (shaded) and cross-country experiments.
+</em>
+</p>
 If you use this repository, please cite our paper:
 
 	Sheehan, E., Meng, C., Tan, M., Uzkent, B., Jean, N., Burke, M., Lobell, D. and Ermon, S., 2019, July. Predicting Economic Development using Geolocated Wikipedia Articles. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 2698-2706). ACM.
