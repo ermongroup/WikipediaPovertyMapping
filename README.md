@@ -33,7 +33,7 @@ images was set to (5 km × 5 km) due to the (maximum) 5km noise that each locati
 ## Models
 We provide the code for the models in
 ```
-model/
+models/
 ```
 ### Wikipedia Embedding Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
