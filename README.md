@@ -31,9 +31,9 @@ Africa, assessing various aspects of welfare, education, and infrastructure qual
 ## Nightlight Images Dataset
 will be updated soon!
 
-## Building Multi-modal Architecture
+## Models
 will be updated soon!
-
+### Multi-modal Architecture
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="600"/>
 
 If you use this repository, please cite our paper:
