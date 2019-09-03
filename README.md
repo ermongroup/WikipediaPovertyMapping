@@ -29,8 +29,10 @@ Our ground truth dataset consists of data on asset ownership from the Demographi
 most developing countries, spanning 31 African countries. Afrobarometer (Round 6) is a survey across 36 countries in
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="200"/>
+<p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="200"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="200"/>
+</p>
 
 ## Nightlight Imagery Dataset
 We use high-resolution night-time imagery from VIIRS [Elvidge et al., 2017]. Each of the imagery is of shape (255, 255). For each point in the AWI data that we train on, we obtain a nightlights image centered on its coordinate. The size of these
