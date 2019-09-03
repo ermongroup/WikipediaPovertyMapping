@@ -52,6 +52,9 @@ tuples; the body text of the article is also cleaned up by replacing
 xml code abbreviations with their human-readable counterparts; saves
 the arrays in the 'coordinate_articles' directory.
 
+<p align="center">
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/geolocated_wikipedia_article.png" width="500"/>
+</p>
 
 ## Training Doc2Vec on Geolocated Articles
 We use [gensim](https://radimrehurek.com/gensim/models/doc2vec.html) doc2vec packege for training the Doc2Vec model. To train the Doc2Vec model on geolocated articles, run:
