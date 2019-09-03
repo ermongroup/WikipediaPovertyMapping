@@ -22,7 +22,7 @@ will be updated soon!
 will be updated soon!
 
 ## Training Doc2Vec on Geolocated Articles
-To train the Doc2Vec model on geolocated articles, run:
+We use [gensim](https://radimrehurek.com/gensim/models/doc2vec.html) doc2vec packege for the Doc2Vec model. To train the Doc2Vec model on geolocated articles, run:
 
 ```
 python Doc2Vec/Doc2Vec_modules/train_doc2vec.py
