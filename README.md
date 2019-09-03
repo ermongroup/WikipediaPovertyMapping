@@ -21,8 +21,8 @@ The files for downloading and parsing geolocated articles are located in
 ```
 article_processing_modules/
 ```
-Here is a discription of what each file does:\n
-convert_xml_articles.py:
+Here is a discription of what each file does:<br />
+**convert_xml_articles.py**:
 Loads the xml articles and extracts the text and hyperlinks from each one. 
 A new array is built of these articles. All articles that are also contained 
 in the coordinate element array are also included here as well, and they also
@@ -30,7 +30,7 @@ retain their coordinate tag as the element at index 3, as (title, text, hyperlin
 tuples. All other articles are stored as (title, text, hyperlink, None) 
 tuples.
 
-parse_article_data.py:
+**parse_article_data.py**:
 This file extracts the raw category tag from all articles' infoboxes and
 separates the articles' body texts from their infobox texts. After, it parses
 the infobox texts into a key-value dictionary to render the infoboxes searchable.
@@ -39,12 +39,12 @@ curated category, infobox dictionary] lists in a database, organized by curated
 category. The file containes code fragments from older category extraction methods
 that have since been abandoned.
 
-parse_pages_meta.py:
+**parse_pages_meta.py**:
 This file parses the large xml file that all wikipedia articles are stored
 in into .txt files storing all articles beginning with a certain letter,
 all File: articles, all Template: articles, and all Category: articles.
 
-sequester_coordinate_articles.py:
+**sequester_coordinate_articles.py**:
 Loads the arrays of xml articles, extracts each one that contains
 a geolocation tag (in the form of coordinates), and builds a new array
 of these articles structured as (title, body text, hyperlinks, coordinates)
