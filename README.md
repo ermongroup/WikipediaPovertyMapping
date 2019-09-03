@@ -46,12 +46,14 @@ models/
 ### Wikipedia Embedding Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
 To train the Wikipedia embedding model, run
+
 ```
 python models/comboModel.py
 ```
 ### Wikipedia Nightlight Multi-modal Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
 To train the multi-modal model, run
+
 ```
 python models/multi_Doc2VecModel.py
 ```
