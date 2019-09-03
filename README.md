@@ -31,7 +31,9 @@ We use high-resolution night-time imagery from VIIRS [Elvidge et al., 2017]. Eac
 images was set to (5 km × 5 km) due to the (maximum) 5km noise that each location has. 
 
 ## Models
-will be updated soon!
+We provide the code for the models in
+```model/
+```
 ### Wikipedia Embedding Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
 
