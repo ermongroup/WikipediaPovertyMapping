@@ -79,10 +79,17 @@ images was set to (5 km × 5 km) due to the (maximum) 5km noise that each locati
 
 ## Models
 We discuss the model architecture in detail in section 3 of the paper.
-We provide the code for Wikipedia Embedding Model and Multi-modal Model in
+We provide the code for Nightlight Only Model, Wikipedia Embedding Model and Multi-modal Model in
 ```
 models/
 ```
+### Nightlight Only Model
+To train the Wikipedia embedding model, run
+
+```
+python models/NL_onlyModel.py
+```
+
 ### Wikipedia Embedding Model
 See section 3.2 for more detail.
 <p align="center">
