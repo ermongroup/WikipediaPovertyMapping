@@ -11,18 +11,16 @@ a model using the Doc2Vec embeddings to predict poverty via (1) the 10 closest a
 as well as Nightlights imagery.
 
 
-We will be updating and cleaning the code for distribution and can field concerns or requests at esheehan@stanford.edu or chenlin@stanford.edu
+We will be updating and cleaning the code for distribution and can field concerns or requests at esheehan@stanford.edu or chenlin@stanford.edu.
 
 # Predicting Economic Development Using Geolocated Wikipedia Articles
 
-## Downloading Geolocated Articles
+## Downloading and Parsing Geolocated Articles
 will be updated soon!
 
-## Parsing Geolocated Articles
-will be updated soon!
 
 ## Training Doc2Vec on Geolocated Articles
-We use [gensim](https://radimrehurek.com/gensim/models/doc2vec.html) doc2vec packege for the Doc2Vec model. To train the Doc2Vec model on geolocated articles, run:
+We use [gensim](https://radimrehurek.com/gensim/models/doc2vec.html) doc2vec packege for training the Doc2Vec model. To train the Doc2Vec model on geolocated articles, run:
 
 ```
 python Doc2Vec/Doc2Vec_modules/train_doc2vec.py
@@ -34,8 +32,8 @@ most developing countries, spanning 31 African countries. Afrobarometer (Round 6
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="300"/>
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="300"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="260"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="260"/>
 </p>
 
 ## Nightlight Imagery Dataset
@@ -57,6 +55,7 @@ To train the Wikipedia embedding model, run
 ```
 python models/comboModel.py
 ```
+The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uganda.
 ### Wikipedia Nightlight Multi-modal Model
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
@@ -67,7 +66,28 @@ To train the multi-modal model, run
 ```
 python models/multi_Doc2VecModel.py
 ```
+The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uganda.
 
+## Results
+When paired with nightlights satellite imagery,
+our method outperforms all previously published benchmarks for
+this prediction task, indicating the potential of Wikipedia to inform
+both research in the social sciences and future policy decisions.
+
+Here is an example:
+On the left is the ground truth values of 1074 data points averaged on Admin 2 Level for Tanzania. On the right is the Wikipedia Embedding Model predicted values averaged on Admin 2 level for a model trained on Ghana and tested on Tanzania (r2 = 0.52). The resulting predictions show that the model is capable of generalizing across national boundaries.
+<p align="center">
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/GHA_TZA(groundtruth,predicted).png" width="600"/>
+</p>
+
+<p align="center">
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/table1.png" width="600"/>
+	
+<em>Pearson’s r
+2 values for the Nightlight-Only (NL), Wikipedia Embedding (WE), and Multi-Modal (MM) models on incountry and out-of-country experiments. Columns and rows represent the countries the models were trained and tested on,
+respectively. The Multi-Modal model outperforms the other models on both in-country (shaded) and cross-country experiments.
+</em>
+</p>
 If you use this repository, please cite our paper:
 
 	Sheehan, E., Meng, C., Tan, M., Uzkent, B., Jean, N., Burke, M., Lobell, D. and Ermon, S., 2019, July. Predicting Economic Development using Geolocated Wikipedia Articles. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 2698-2706). ACM.
