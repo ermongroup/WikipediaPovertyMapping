@@ -57,6 +57,7 @@ To train the Wikipedia embedding model, run
 ```
 python models/comboModel.py
 ```
+The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uganda.
 ### Wikipedia Nightlight Multi-modal Model
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
@@ -67,6 +68,7 @@ To train the multi-modal model, run
 ```
 python models/multi_Doc2VecModel.py
 ```
+The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uganda.
 
 If you use this repository, please cite our paper:
 
