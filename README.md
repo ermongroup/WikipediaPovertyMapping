@@ -2,7 +2,7 @@
 This repository contains the implementation of our _KDD2019_ paper: [__Predicting Economic Development Using Geolocated Wikipedia Articles__](https://dl.acm.org/citation.cfm?doid=3292500.3330784).
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/global_wiki.png" width="500"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/global_wiki.png" width="700"/>
 </p>
 
 Here, we present the code for parsing a Wikipedia xml dump into its constituent geolocated articles,
