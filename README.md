@@ -30,8 +30,8 @@ most developing countries, spanning 31 African countries. Afrobarometer (Round 6
 Africa, assessing various aspects of welfare, education, and infrastructure quality.
 
 <p align="center">
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="200"/>
-<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="200"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/wealth-groundtruth-africa.png" width="300"/>
+<img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/error_range.png" width="300"/>
 </p>
 
 ## Nightlight Imagery Dataset
@@ -45,12 +45,15 @@ models/
 ```
 ### Wikipedia Embedding Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
-
+To train the Wikipedia embedding model, run
+```
+python models/comboModel.py
+```
 ### Wikipedia Nightlight Multi-modal Model
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
 To train the multi-modal model, run
 ```
-python 
+python models/multi_Doc2VecModel.py
 ```
 
 If you use this repository, please cite our paper:
