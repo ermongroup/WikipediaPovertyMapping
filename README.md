@@ -16,7 +16,35 @@ We will be updating and cleaning the code for distribution and can field concern
 # Predicting Economic Development Using Geolocated Wikipedia Articles
 
 ## Downloading and Parsing Geolocated Articles
-will be updated soon!
+convert_xml_articles.py:
+Loads the xml articles and extracts the text and hyperlinks from each one. 
+A new array is built of these articles. All articles that are also contained 
+in the coordinate element array are also included here as well, and they also
+retain their coordinate tag as the element at index 3, as (title, text, hyperlink, coordinate)
+tuples. All other articles are stored as (title, text, hyperlink, None) 
+tuples.
+
+parse_article_data.py:
+This file extracts the raw category tag from all articles' infoboxes and
+separates the articles' body texts from their infobox texts. After, it parses
+the infobox texts into a key-value dictionary to render the infoboxes searchable.
+It then stores the new [title, full text, hyperlinks, coordinates, raw category,
+curated category, infobox dictionary] lists in a database, organized by curated 
+category. The file containes code fragments from older category extraction methods
+that have since been abandoned.
+
+parse_pages_meta.py:
+This file parses the large xml file that all wikipedia articles are stored
+in into .txt files storing all articles beginning with a certain letter,
+all File: articles, all Template: articles, and all Category: articles.
+
+sequester_coordinate_articles.py:
+Loads the arrays of xml articles, extracts each one that contains
+a geolocation tag (in the form of coordinates), and builds a new array
+of these articles structured as (title, body text, hyperlinks, coordinates)
+tuples; the body text of the article is also cleaned up by replacing
+xml code abbreviations with their human-readable counterparts; saves
+the arrays in the 'coordinate_articles' directory.
 
 
 ## Training Doc2Vec on Geolocated Articles
@@ -46,6 +74,7 @@ We provide the code for Wikipedia Embedding Model and Multi-modal Model in
 models/
 ```
 ### Wikipedia Embedding Model
+See section 3.2 for more detail.
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
 </p>
@@ -57,6 +86,7 @@ python models/comboModel.py
 ```
 The model will evaluate the results on Ghana, Malawi, Nigeria, Tanzania, and Uganda.
 ### Wikipedia Nightlight Multi-modal Model
+See section 3.3 for more detail.
 <p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
 </p>
