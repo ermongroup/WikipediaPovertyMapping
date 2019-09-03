@@ -16,6 +16,12 @@ We will be updating and cleaning the code for distribution and can field concern
 # Predicting Economic Development Using Geolocated Wikipedia Articles
 
 ## Downloading and Parsing Geolocated Articles
+The files for downloading and parsing geolocated articles are located in 
+
+```
+article_processing_modules/
+```
+Here is a discription of what each file does:
 convert_xml_articles.py:
 Loads the xml articles and extracts the text and hyperlinks from each one. 
 A new array is built of these articles. All articles that are also contained 
