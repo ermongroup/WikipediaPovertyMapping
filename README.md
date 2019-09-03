@@ -23,7 +23,13 @@ will be updated soon!
 ## Training Doc2Vec on Geolocated Articles
 will be updated soon!
 
-## Downloading Nightlight Images
+## Socioeconomic Data
+Our ground truth dataset consists of data on asset ownership from the Demographic and Health Surveys (DHS) [DHS] (https://www.dhsprogram.com/) and Afrobarometer [AFR](http://http://
+afrobarometer.org). DHS is a set of nationallyrepresentative household surveys conducted periodically in
+most developing countries, spanning 31 African countries. Afrobarometer (Round 6) is a survey across 36 countries in
+Africa, assessing various aspects of welfare, education, and infrastructure quality.
+
+## Nightlight Images Dataset
 will be updated soon!
 
 ## Building Multi-modal Architecture
