@@ -44,14 +44,20 @@ We provide the code for the models in
 models/
 ```
 ### Wikipedia Embedding Model
+<p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Wikipedia_Embedding_Model.png" width="500"/>
+</p>
+	
 To train the Wikipedia embedding model, run
 
 ```
 python models/comboModel.py
 ```
 ### Wikipedia Nightlight Multi-modal Model
+<p align="center">
 <img src="https://github.com/ermongroup/WikipediaPovertyMapping/blob/master/images/Multi-modal_Architecture.png" width="500"/>
+</p>
+
 To train the multi-modal model, run
 
 ```
